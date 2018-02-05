@@ -3,5 +3,4 @@ An Android App using Google Maps,Retrofit, and Codeigniter as Restful API Backen
 
 ## Screenshot
 
-![Screenshot](https://raw.githubusercontent.com/hermasyp/BengkelYuk/Screenshot/Login.png )
-
+[a Screenshot App] (https://github.com/hermasyp/BengkelYuk/tree/master/Screenshot)
