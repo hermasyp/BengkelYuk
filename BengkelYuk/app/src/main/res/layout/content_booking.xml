@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="bengkelyuk.bengkelapp.id.bengkelyuk.UI.Activity.BookingActivity"
+    tools:showIn="@layout/activity_booking">
+    <android.support.v7.widget.CardView
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:text="Jenis Motor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:layout_marginTop="8dp"
+                android:id="@+id/spTipeMotor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </Spinner>
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:text="Plat Nomor Motor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/txtPlatNomor"
+                android:layout_marginTop="8dp"
+                android:padding="8dp"
+                android:hint="Plat Nomor Anda"
+                android:background="@drawable/shape_round"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:text="Tanggal Service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/txtTanggalService"
+                android:layout_marginTop="8dp"
+                android:padding="8dp"
+                android:hint="Tanggal Service"
+                android:editable="false"
+                android:background="@drawable/shape_round"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:text="Keluhan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/txtKeluhan"
+                android:layout_marginTop="8dp"
+                android:padding="8dp"
+                android:hint="Keluhan Kendaraan"
+                android:background="@drawable/shape_round"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
